@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>634</width>
+    <height>543</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(92, 167, 242);</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>90</y>
+     <width>554</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLineEdit" name="background_color">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+font: 14pt &quot;Courier New&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Цвет фона</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="snow_color">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+font: 14pt &quot;Courier New&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Цвет снега</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="snowman_color">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+font: 14pt &quot;Courier New&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Цвет снеговика</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="extra_color">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+font: 14pt &quot;Courier New&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Цвет ведра</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>601</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;Courier New&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>В каждое окно введи один из предложенных цветов(обязательно в той
+же форме): белый, чёрный, синий, красный, зелёный, жёлтый, серый
+розовый, голубой, коричневый </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>400</y>
+     <width>411</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 14pt &quot;Courier New&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Кому предназначается открытка?</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="create_button1">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>490</y>
+     <width>113</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 14pt &quot;Courier New&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Создать</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>430</y>
+     <width>551</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLineEdit" name="name">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+font: 14pt &quot;Courier New&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Имя должно быть короче 15 символов</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
